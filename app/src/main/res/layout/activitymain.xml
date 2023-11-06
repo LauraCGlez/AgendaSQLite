@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/agenda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edNombre"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="text"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/edTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:ems="10"
+        android:hint="@string/telefono"
+        android:inputType="number"
+        android:autofillHints="no" />
+
+    <Button
+        android:id="@+id/botonAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:onClick="agregar"
+        android:text="@string/agregar" />
+</LinearLayout>
